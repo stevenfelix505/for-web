@@ -199,6 +199,14 @@ msgstr ""
 msgid "{0}'s timeout will be removed and they will be able to interact with the server again."
 msgstr ""
 
+#: components/modal/modals/QuickSwitch.tsx
+msgid "{channel}, in category {category}, in server {serverName}"
+msgstr ""
+
+#: components/modal/modals/QuickSwitch.tsx
+msgid "{channel}, in server {serverName}"
+msgstr ""
+
 #~ msgid "{h} hours"
 #~ msgstr ""
 
@@ -469,6 +477,10 @@ msgstr "已經與此使用者成為好友。"
 msgid "Already have an account?"
 msgstr ""
 
+#: components/markdown/plugins/customEmoji.tsx
+msgid "Alt+Click to yoink"
+msgstr ""
+
 #: components/app/interface/settings/user/voice/ScreenShareOptions.tsx
 msgid "Always Ask for Screen Share Quality"
 msgstr ""
@@ -680,6 +692,7 @@ msgstr ""
 
 #: components/auth/src/flows/FlowLogin.tsx
 #: components/modal/modals/AddBot.tsx
+#: components/modal/modals/AvatarRadius.tsx
 #: components/modal/modals/BanMember.tsx
 #: components/modal/modals/BanNonMember.tsx
 #: components/modal/modals/CropProcess.tsx
@@ -863,8 +876,16 @@ msgstr ""
 msgid "Choose an account"
 msgstr ""
 
+#: components/modal/modals/AvatarRadius.tsx
+msgid "Choose radius"
+msgstr ""
+
 #: components/modal/modals/Onboarding.tsx
 msgid "Choose username"
+msgstr ""
+
+#: components/app/interface/settings/user/appearance/AppearanceMenu.tsx
+msgid "Circular"
 msgstr ""
 
 #: src/interface/navigation/servers/UserMenu.tsx
@@ -873,6 +894,10 @@ msgstr "清除狀態"
 
 #: components/modal/modals/PolicyChange.tsx
 msgid "Click on the items below to learn more about different changes!"
+msgstr ""
+
+#: components/ui/components/features/messaging/composition/picker/GifPicker.tsx
+msgid "Click the star on GIFs to stash them here."
 msgstr ""
 
 #: components/ui/components/features/profiles/ProfileBanner.tsx
@@ -1053,6 +1078,10 @@ msgstr ""
 
 #: components/app/menus/MessageContextMenu.tsx
 msgid "Copy link to file"
+msgstr ""
+
+#: components/app/menus/shared/GifboxContextMenu.tsx
+msgid "Copy link to GIF"
 msgstr ""
 
 #: components/app/menus/MessageContextMenu.tsx
@@ -1262,6 +1291,10 @@ msgstr "目前密碼"
 msgid "Current Session"
 msgstr ""
 
+#: components/app/interface/settings/user/appearance/AppearanceMenu.tsx
+msgid "Custom"
+msgstr ""
+
 #: components/ui/components/design/ColourPicker.tsx
 msgid "Custom colour"
 msgstr ""
@@ -1307,6 +1340,7 @@ msgstr "靜音成員"
 
 #: components/app/menus/shared/NotificationContextMenu.tsx
 #: components/ui/components/design/ColourPicker.tsx
+#: components/ui/components/features/messaging/composition/picker/EmojiPicker.tsx
 msgid "Default"
 msgstr "預設"
 
@@ -1719,6 +1753,20 @@ msgstr ""
 msgid "Failed to verify!"
 msgstr "驗證失敗！"
 
+#: components/app/menus/EmojiContextMenu.tsx
+msgid "Favourite emoji"
+msgstr ""
+
+#: components/app/menus/MessageContextMenu.tsx
+#: components/ui/components/utils/GifEmbed.tsx
+msgid "Favourite GIF"
+msgstr ""
+
+#: components/ui/components/features/messaging/composition/picker/EmojiPicker.tsx
+#: components/ui/components/features/messaging/composition/picker/GifPicker.tsx
+msgid "Favourites"
+msgstr ""
+
 #: components/app/interface/settings/user/Feedback.tsx
 #: components/app/interface/settings/UserSettings.tsx
 msgid "Feedback"
@@ -1781,6 +1829,10 @@ msgstr ""
 msgid "Forgot password?"
 msgstr ""
 
+#: components/ui/components/features/messaging/composition/picker/EmojiPicker.tsx
+msgid "Frequently Used"
+msgstr ""
+
 #: src/interface/Friends.tsx
 #: src/interface/navigation/channels/HomeSidebar.tsx
 msgid "Friends"
@@ -1825,6 +1877,10 @@ msgstr ""
 
 #: components/auth/src/AppUpsell.tsx
 msgid "Get the desktop app for Windows, macOS and Linux and keep your conversations one click away."
+msgstr ""
+
+#: components/app/menus/shared/GifboxContextMenu.tsx
+msgid "Gifbox Admin Panel"
 msgstr ""
 
 #: components/ui/components/features/messaging/composition/picker/GifPicker.tsx
@@ -2273,6 +2329,10 @@ msgstr "標記為已讀"
 msgid "Mark as unread"
 msgstr "標記為未讀"
 
+#: components/app/menus/ServerFolderContextMenu.tsx
+msgid "Mark folder as read"
+msgstr ""
+
 #: components/modal/modals/ChannelToggleMature.tsx
 msgid "Mark this channel as mature?"
 msgstr ""
@@ -2510,6 +2570,14 @@ msgstr ""
 msgid "No permissions set yet"
 msgstr ""
 
+#: components/modal/modals/QuickSwitch.tsx
+msgid "No recent channels"
+msgstr ""
+
+#: components/modal/modals/QuickSwitch.tsx
+msgid "No results"
+msgstr ""
+
 #: components/app/interface/settings/channel/permissions/ChannelPermissionsOverview.tsx
 msgid "No role overrides have been configured."
 msgstr ""
@@ -2616,6 +2684,10 @@ msgstr ""
 
 #: components/app/menus/MessageContextMenu.tsx
 msgid "Open file"
+msgstr ""
+
+#: components/app/menus/shared/GifboxContextMenu.tsx
+msgid "Open in Gifbox"
 msgstr ""
 
 #: components/app/menus/ServerContextMenu.tsx
@@ -2742,6 +2814,10 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
+#: components/modal/modals/QuickSwitch.tsx
+msgid "PREVIOUS CHANNELS"
+msgstr ""
+
 #: components/app/interface/settings/UserSettings.tsx
 #: components/auth/src/AuthPage.tsx
 msgid "Privacy"
@@ -2759,6 +2835,10 @@ msgstr ""
 msgid "Private Channel"
 msgstr ""
 
+#: components/modal/modals/QuickSwitch.tsx
+msgid "Pro tip:"
+msgstr ""
+
 #: components/app/interface/settings/UserSettings.tsx
 #: components/app/menus/UserContextMenu.tsx
 msgid "Profile"
@@ -2766,6 +2846,10 @@ msgstr "個人資料"
 
 #: components/app/interface/settings/user/profile/UserProfileEditor.tsx
 msgid "Profile Bio"
+msgstr ""
+
+#: components/app/interface/settings/user/appearance/AppearanceMenu.tsx
+msgid "Profile Picture shape"
 msgstr ""
 
 #: components/modal/modals/ReportContent.tsx
@@ -2959,6 +3043,10 @@ msgstr "回覆"
 msgid "Report"
 msgstr "檢舉"
 
+#: components/app/menus/shared/GifboxContextMenu.tsx
+msgid "Report GIF"
+msgstr ""
+
 #: components/app/menus/MessageContextMenu.tsx
 msgid "Report message"
 msgstr "檢舉訊息"
@@ -3060,6 +3148,10 @@ msgstr "身份組"
 msgid "Roles with No Overrides"
 msgstr ""
 
+#: components/app/interface/settings/user/appearance/AppearanceMenu.tsx
+msgid "Rounded"
+msgstr ""
+
 #: components/app/interface/settings/channel/Overview.tsx
 #: components/app/interface/settings/channel/webhooks/ViewWebhook.tsx
 #: components/app/interface/settings/server/Overview.tsx
@@ -3083,6 +3175,7 @@ msgstr ""
 msgid "Save to your notes"
 msgstr "儲存到記事本"
 
+#: components/modal/modals/QuickSwitch.tsx
 #: src/interface/channels/ChannelHeader.tsx
 #: src/interface/navigation/channels/HomeSidebar.tsx
 msgid "Saved Notes"
@@ -3111,6 +3204,18 @@ msgstr ""
 
 #: src/interface/channels/ChannelHeader.tsx
 msgid "Search"
+msgstr ""
+
+#: components/modal/modals/QuickSwitch.tsx
+msgid "Search channels"
+msgstr ""
+
+#: components/ui/components/features/messaging/composition/picker/EmojiPicker.tsx
+msgid "Search for emojis..."
+msgstr ""
+
+#: components/ui/components/features/messaging/composition/picker/GifPicker.tsx
+msgid "Search for GIFs..."
 msgstr ""
 
 #: components/modal/modals/AddBot.tsx
@@ -3243,6 +3348,10 @@ msgstr "伺服器名稱"
 msgid "Server Roles"
 msgstr ""
 
+#: components/modal/modals/QuickSwitch.tsx
+msgid "Server: {name}"
+msgstr ""
+
 #: components/app/interface/settings/UserSettings.tsx
 msgid "Sessions"
 msgstr "裝置"
@@ -3294,6 +3403,10 @@ msgstr ""
 
 #: components/ui/components/features/voice/callCard/VoiceCallCardActions.tsx
 msgid "Share screen"
+msgstr ""
+
+#: components/app/interface/settings/user/appearance/AppearanceMenu.tsx
+msgid "Sharp"
 msgstr ""
 
 #: components/app/interface/settings/user/Native.tsx
@@ -3390,6 +3503,10 @@ msgstr ""
 
 #: components/app/interface/settings/user/Native.tsx
 msgid "Start Minimised to Tray"
+msgstr ""
+
+#: components/modal/modals/QuickSwitch.tsx
+msgid "Start searches with <0>@</0> <1>#</1> <2>!</2> <3>*</3> to narrow results."
 msgstr ""
 
 #: components/ui/components/features/voice/callCard/VoiceCallCardPreview.tsx
@@ -3765,6 +3882,15 @@ msgstr ""
 msgid "Undeafen"
 msgstr ""
 
+#: components/app/menus/EmojiContextMenu.tsx
+msgid "Unfavourite emoji"
+msgstr ""
+
+#: components/app/menus/MessageContextMenu.tsx
+#: components/ui/components/utils/GifEmbed.tsx
+msgid "Unfavourite GIF"
+msgstr ""
+
 #: components/ui/components/design/LoadingScreen.tsx
 msgid "Unknown"
 msgstr ""
@@ -3831,6 +3957,10 @@ msgstr "上傳檔案"
 
 #: components/ui/components/features/messaging/composition/picker/GifPicker.tsx
 msgid "Upload to Gifbox"
+msgstr ""
+
+#: components/modal/modals/AvatarRadius.tsx
+msgid "Use"
 msgstr ""
 
 #: components/modal/modals/JoinServer.tsx
@@ -4057,6 +4187,10 @@ msgstr ""
 
 #: components/app/interface/settings/UserSettings.tsx
 msgid "What's New"
+msgstr ""
+
+#: components/modal/modals/QuickSwitch.tsx
+msgid "Where would you like to go?"
 msgstr ""
 
 #: components/app/interface/settings/channel/permissions/ChannelPermissionsEditor.tsx
